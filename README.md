@@ -27,8 +27,8 @@ Components i need
 </ul>
 <h2>Running This application</h2>
 Clone this git repository
-Use <em> git clone "link"</em>
-Navigate to the Sales-dashboard folder using cmd and run <em> npm start</em>
+Use <em> git clone "link"</em> <br>
+Navigate to the Zeraki-dashboard folder using cmd and run <em> npm start</em>
 
 You are now good to go!
 
