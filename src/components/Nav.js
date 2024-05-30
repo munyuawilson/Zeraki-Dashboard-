@@ -2,14 +2,11 @@ import React from "react";
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Dashboard from "./Dashboard";
+import Schools from "./Schools";
+import InvoiceManagement from "./InvoiceManagement";
 
 
-const SchoolManagement = () => <div>School Management Content</div>;
-const Invoices = () => <div>Invoices Content</div>;
-const Collections = () => <div>Collections Content</div>;
-const Login = () => <div>Login Content</div>;
-const Register = () => <div>Register Content</div>;
-const Logout = () => <div>Logout Content</div>;
+
 function Nav(){
 
     return(
@@ -31,17 +28,17 @@ function Nav(){
           </Link>
         </li>
         <li className="nav-item mb-1">
-          <a href="#">
+          <Link to='/Schools'>
             <i className="fa-regular fa-bookmark" />
             School Management
-            <span className="notification-badge">5</span>
-          </a>
+            
+          </Link>
         </li>
         <li className="nav-item mb-1">
-          <a href="#">
+          <Link to='/Invoices'>
             <i className="fa-regular fa-newspaper" />
             Invoices
-          </a>
+          </Link>
         </li>
         <li className="nav-item mb-1">
           <a href="#">
@@ -95,14 +92,15 @@ function Nav(){
         <span className=""> Zeraki Sales Dashboard</span>
       </div>
       <div className="p-4">
-        
+        <h2 className="text-center">Zeraki Analytics</h2>
         <hr />
         <div className="row">
           <div className="col">
             
             <Routes>
                   <Route path="/Dashboard" element={<Dashboard />} />
-                  
+                  <Route path="/Schools" element={<Schools/>}/>
+                  <Route path="/Invoices" element={<InvoiceManagement/>}/>
                 </Routes>
           </div>
         </div>
