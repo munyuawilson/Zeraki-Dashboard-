@@ -52,26 +52,7 @@ function Nav(){
             <i className="fas fa-cog pe-2" />
             <span className="topic">Settings </span>
           </a>
-          <ul id="settings" className="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
-            <li className="sidebar-item">
-              <a href="#" className="sidebar-link">
-                <i className="fas fa-sign-in-alt pe-2" />
-                <span className="topic"> Login</span>
-              </a>
-            </li>
-            <li className="sidebar-item">
-              <a href="#" className="sidebar-link">
-                <i className="fas fa-user-plus pe-2" />
-                <span className="topic">Register</span>
-              </a>
-            </li>
-            <li className="sidebar-item">
-              <a href="#" className="sidebar-link">
-                <i className="fas fa-sign-out-alt pe-2" />
-                <span className="topic">Log Out</span>
-              </a>
-            </li>
-          </ul>
+          
         </li>
       </ul>
       <hr />

@@ -25,3 +25,15 @@ Components i need
 </ul>
 
 </ul>
+<h2>Running This application</h2>
+Clone this git repository
+Use <em> git clone "link"</em>
+Navigate to the Sales-dashboard folder using cmd and run <em> npm start</em>
+
+You are now good to go!
+
+
+The application is not completely finished.
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image.png)
